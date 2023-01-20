@@ -10,10 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-picker/picker": "^2.4.8",
     "react": "18.2.0",
     "react-native": "0.71.1",
-    "react-native-config": "^1.4.12"
+    "react-native-config": "^1.4.12",
+    "react-native-dropdown-picker": "^5.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

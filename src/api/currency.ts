@@ -10,14 +10,19 @@ export const enum Currency {
   LTC = 'LTC',
 }
 
-export const keys: string[] = [
-  'BTC',
-  'USD',
-  'PLN',
-  'EUR',
-  'CNY',
-  'UAH',
-  'ETH',
-  'BNB',
-  'LTC',
+export type CurrencyItem = {
+  label: string;
+  value: string;
+};
+
+export const currencies: CurrencyItem[] = [
+  {label: 'BTC', value: 'BTC'},
+  {label: 'USD', value: 'USD'},
+  {label: 'PLN', value: 'PLN'},
+  {label: 'EUR', value: 'EUR'},
+  {label: 'CNY', value: 'CNY'},
+  {label: 'UAH', value: 'UAH'},
+  {label: 'ETH', value: 'ETH'},
+  {label: 'BNB', value: 'BNB'},
+  {label: 'LTC', value: 'LTC'},
 ];
